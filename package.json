@@ -1,13 +1,18 @@
 {
-  "name": "@gnomad/dataset-metadata",
+  "name": "gnomad-dataset-metadata",
   "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/biswabijaya/gnomad-dataset-metadata"
   },
+  "main": "gnomadPopulations.ts",
   "author": "Biswabijaya",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.8.1"
+  },
+  "access": "public",
+  "dependencies": {
+    "@jest/globals": "^29.7.0"
   }
 }
