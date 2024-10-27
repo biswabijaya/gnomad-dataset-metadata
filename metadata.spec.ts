@@ -1,6 +1,6 @@
 import { test, expect } from '@jest/globals'
 import { DatasetId, ReferenceGenome, referenceGenome } from './metadata'
-import { forAllDatasets } from '../tests/__helpers__/datasets'
+import { forAllDatasets } from './tests/datasets.tsx'
 
 const expectedReferenceGenome: Record<DatasetId, ReferenceGenome> = {
   exac: 'GRCh37',
